@@ -1,6 +1,6 @@
 # This repo contains the learning module of ML-IOTRIM
 You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure:
-
+https://github.com/IoTrim/IoTrigger/tree/main?tab=readme-ov-file
 
 The procedure does the following for each file in the traffic folder:
 	- Extract the dns queries
