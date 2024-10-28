@@ -1,11 +1,10 @@
 # This repo contains the learning module of ML-IOTRIM
-You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure:
-https://github.com/IoTrim/IoTrigger/tree/main?tab=readme-ov-file
+You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger/tree/main
 
-The procedure does the following for each file in the traffic folder:
-	- Extract the dns queries
-	- Extract the network features
-	- Evaluate the machine learning models
+The following scripts start from a traffic folder containing PCAP files and for each file do the following:
+	- Extract the dns queries in a TXT file
+	- Extract the network features in CSV format
+	- Evaluate the machine learning models and output the result
 
 
 REQUIREMENTS:
