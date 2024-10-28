@@ -1,0 +1,50 @@
+[
+	{	"id":"echo-dot3","name":"Amazon Echo Dot 3", "data_dir":"/mnt/disk200/data/devices/echo-dot3",
+		"dns_file":"/mnt/disk200/data/devices/echo-dot3/traffic/dns-file.txt",
+		"IP":"13.10.0.16","MAC":"fc:49:2d:1a:78:6a",
+		"good_dests":["music.amazon.com", "avs-alexa-14-eu.amazon.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"echo-dot4","name":"Amazon Echo Dot 4", "data_dir":"/mnt/disk200/data/devices/echo-dot4",
+		"dns_file":"/mnt/disk200/data/devices/echo-dot4/traffic/dns-file.txt",
+		"IP":"13.10.0.14","MAC":"94:3a:91:83:9:31",
+		"good_dests":["music.amazon.com", "bob-dispatch-prod-eu.amazon.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"yi-camera","name":"Yi Camera", "data_dir":"/mnt/disk200/data/devices/yi-camera",
+		"dns_file":"/mnt/disk200/data/devices/yi-camera/traffic/dns-file.txt",
+		"IP":"13.10.0.19","MAC":"c:8c:24:b:be:fb",
+		"good_dests":["api.eu.xiaoyi.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"yeelight-bulb","name":"Yeelight Bulb", "data_dir":"/mnt/disk200/data/devices/yeelight-bulb",
+		"dns_file":"/mnt/disk200/data/devices/yeelight-bulb/traffic/dns-file.txt",
+		"IP":"13.10.0.22","MAC":"ec:4d:3e:15:8f:bf",
+		"good_dests":["de.ot.io.mi.com","de.ott.io.mi.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"kasa-bulb","name":"Kasa Bulb", "data_dir":"/mnt/disk200/data/devices/kasa-bulb",
+		"dns_file":"/mnt/disk200/data/devices/kasa-bulb/traffic/dns-file.txt",
+		"IP":"13.10.0.13","MAC":"50:c7:bf:ca:3f:9d",
+		"good_dests":["n-devs.tplinkcloud.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"tapo-plug25","name":"Tapo Plug P110", "data_dir":"/mnt/disk200/data/devices/tapo-plug25",
+		"dns_file":"/mnt/disk200/data/devices/tapo-plug25/traffic/dns-file.txt",
+		"IP":"13.10.0.17","MAC":"30:de:4b:4d:84:6e",
+		"good_dests":["euw1-device-cloudgateway.iot.i.tplinknbu.com","security.iot.i.tplinknbu.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"switchbot-mini","name":"Switchbot Mini", "data_dir":"/mnt/disk200/data/devices/switchbot-mini",
+		"dns_file":"/mnt/disk200/data/devices/switchbot-mini/traffic/dns-file.txt",
+		"IP":"192.168.10.14","MAC":"bc:ff:4d:84:66:33",
+		"good_dests":["a2alhn2dfztqv9.iot.us-east-1.amazonaws.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	},
+	{	"id":"roku-tv","name":"Roku TV Stick", "data_dir":"/mnt/disk200/data/devices/roku-tv",
+		"dns_file":"/mnt/disk200/data/devices/roku-tv/traffic/dns-file.txt",
+		"IP":"192.168.10.11","MAC":"ac:ae:19:12:33:1e",
+		"good_dests":["www.youtube.com"],
+        "tshark":"optimal","dynamic_ip":"false"
+	}
+]
