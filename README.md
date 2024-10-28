@@ -1,4 +1,7 @@
-This repo contains for the learning module of ML-IOTRIM
+# This repo contains the learning module of ML-IOTRIM
+You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure:
+
+
 The procedure does the following for each file in the traffic folder:
 	- Extract the dns queries
 	- Extract the network features
