@@ -7,22 +7,28 @@ The following scripts start from a traffic folder containing PCAP files and for 
 	- Evaluate the machine learning models and output the result
 
 
-REQUIREMENTS:
-	You need the MonIoTr framework installed, or edit the pcap_to_features.py file to pass the device IP address from command line
-	Following libraries in python3 are required: numpy, scikit-learn, joblib, pandas
+## REQUIREMENTS:
+You need the MonIoTr framework installed, or edit the pcap_to_features.py file to pass the device IP address from command line
+
+The following libraries for python3 are required: numpy, scikit-learn, joblib, pandas
 
 
-The first script extracts the dataset: mliotrim_convert_folder.sh
+## Script 1: mliotrim_convert_folder.sh
+The script convert a folder of PCAP file to a folder of CSV files, obtained aggregating packets and extracting statistical features
+
 Usage:
 	sudo ./mliotrim_convert_folder.sh DEVICE TRAFFIC_FOLDER
+
 Example: 
 	sudo ./mliotrim_convert_folder.sh echo-dot-3 ./devices/echo-dot-3/traffic
 
 This will extract all the features and produce the CSV windowed output
 
+## Script 2: evaluate_rf.py
 
+The script evaluates the machine learning model and take decision on the destinations.
 
-To evaluate the machine learning model and take decision on the destinations, we can use the evaluate_rf.py script.
 We need to pass the windowed file which is the output of the previous procedure.
+
 Usage:
 	sudo python3 evaluate_rf.py WINDOWED_CSV_FILE
