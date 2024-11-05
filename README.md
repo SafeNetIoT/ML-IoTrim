@@ -26,7 +26,8 @@ Usage:\
 Example: \
 	sudo ./mliotrim_convert_folder.sh echo-dot-3 ./devices/echo-dot-3/traffic
 
-This will extract all the features and produce the CSV windowed output\
+This will extract all the features and produce the CSV windowed output
+
 ## Script 2: evaluate_rf.py
 
 The script evaluates the machine learning model and take decision on the destinations.\
