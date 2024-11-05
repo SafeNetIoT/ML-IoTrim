@@ -1,21 +1,18 @@
 # This repo contains the learning module of ML-IOTRIM
-
-## IoTrim Requirements for Ground-Truth
-You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger/tree/main
-
-The procedure requires Moniotr and produces two lists, contained in the folder MONIOTR_DIRECTORY/YOUR_DEVICE/traffic/tagged.\
-You will obtain a unique txt file for Essential and Non-essential destinations.
-
-## ML-IoTrim Logic
 The following scripts start from a traffic folder containing PCAP files and for each file do the following:
 * Extract the dns queries in a TXT file
 * Extract the network features in CSV format
-* Evaluate the machine learning models and output the result
-
-
+* Evaluate the machine learning models and output the result\
+  
 ## REQUIREMENTS:
-You need the MonIoTr framework installed, or edit the pcap_to_features.py file to pass the device IP address from command line
+#### IoTrim Requirements for Ground-Truth
+	You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger/tree/main\
+	The procedure requires Moniotr and produces two lists, contained in the folder MONIOTR_DIRECTORY/YOUR_DEVICE/traffic/tagged.\
+	You will obtain a unique txt file for Essential and Non-essential destinations.\
 
+#### MonIotr
+You need the MonIoTr framework installed, or edit the pcap_to_features.py file to pass the device IP address from command line
+#### Python3
 The following libraries for python3 are required: numpy, scikit-learn, joblib, pandas
 
 
