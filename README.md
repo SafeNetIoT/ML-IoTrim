@@ -3,7 +3,7 @@
 ## IoTrim Requirements for Ground-Truth
 You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger/tree/main
 
-The procedure requires Moniotr and produces two lists, contained in the folder MONIOTR_DIRECTORY/YOUR_DEVICE/traffic/tagged.\\
+The procedure requires Moniotr and produces two lists, contained in the folder MONIOTR_DIRECTORY/YOUR_DEVICE/traffic/tagged.\
 A txt file for Essential and a file for Non-essential destinations.
 
 ## ML-IoTrim Logic
