@@ -20,7 +20,6 @@ The following libraries for python3 are required: numpy, scikit-learn, joblib, p
 ## Script 1: mliotrim_convert_folder.sh
 The script converts a folder of PCAP files to a folder of CSV files, obtained aggregating packets and extracting statistical features as in the paper.\
 The aggregation window is set by default to 60s and can be changed in the script\
-
 Usage:\
 	sudo ./mliotrim_convert_folder.sh DEVICE TRAFFIC_FOLDER
 
@@ -28,7 +27,6 @@ Example: \
 	sudo ./mliotrim_convert_folder.sh echo-dot-3 ./devices/echo-dot-3/traffic
 
 This will extract all the features and produce the CSV windowed output\
-
 ## Script 2: evaluate_rf.py
 
 The script evaluates the machine learning model and take decision on the destinations.\
