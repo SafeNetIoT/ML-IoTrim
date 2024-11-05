@@ -20,21 +20,20 @@ The following libraries for python3 are required: numpy, scikit-learn, joblib, p
 
 
 ## Script 1: mliotrim_convert_folder.sh
-The script convert a folder of PCAP file to a folder of CSV files, obtained aggregating packets and extracting statistical features
+The script converts a folder of PCAP files to a folder of CSV files, obtained aggregating packets and extracting statistical features as in the paper.\
+The aggregation window is set by default to 60s and can be changed in the script\
 
-Usage:
+Usage:\
 	sudo ./mliotrim_convert_folder.sh DEVICE TRAFFIC_FOLDER
 
-Example: 
+Example: \
 	sudo ./mliotrim_convert_folder.sh echo-dot-3 ./devices/echo-dot-3/traffic
 
-This will extract all the features and produce the CSV windowed output
+This will extract all the features and produce the CSV windowed output\
 
 ## Script 2: evaluate_rf.py
 
-The script evaluates the machine learning model and take decision on the destinations.
-
-We need to pass the windowed file which is the output of the previous procedure.
-
-Usage:
+The script evaluates the machine learning model and take decision on the destinations.\
+We need to pass the windowed file which is the output of the previous procedure.\
+Usage:\
 	sudo python3 evaluate_rf.py WINDOWED_CSV_FILE
