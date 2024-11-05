@@ -3,13 +3,11 @@ The following scripts start from a traffic folder containing PCAP files and for 
 * Extract the dns queries in a TXT file
 * Extract the network features in CSV format
 * Evaluate the machine learning models and output the result\
-  
 ## REQUIREMENTS:
 #### IoTrim Requirements for Ground-Truth
 You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger/tree/main\
 The procedure requires Moniotr and produces two lists, contained in the folder MONIOTR_DIRECTORY/YOUR_DEVICE/traffic/tagged.\
 You will obtain a unique txt file for Essential and Non-essential destinations.\
-
 #### MonIoTr
 You need the MonIoTr framework installed:\
 You can also edit the pcap_to_features.py file to pass the device IP address, if you only need the evaluation of the ML-IoTrim models
