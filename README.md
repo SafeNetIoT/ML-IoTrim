@@ -21,7 +21,7 @@ The following libraries for python3 are required: numpy, scikit-learn, joblib, p
 The script converts a folder of PCAP files to a folder of CSV files, obtained aggregating packets and extracting statistical features as in the paper.\
 The aggregation window is set by default to 60s and can be changed in the script\
 Usage:\
-	sudo ./mliotrim_convert_folder.sh DEVICE TRAFFIC_FOLDER
+	sudo ./mliotrim_convert_folder.sh DEVICE_NAME TRAFFIC_FOLDER
 
 Example: \
 	sudo ./mliotrim_convert_folder.sh echo-dot-3 ./devices/echo-dot-3/traffic
