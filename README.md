@@ -5,7 +5,7 @@ The following scripts start from a traffic folder containing PCAP files and for 
 * Evaluate the machine learning models and output the result\
 ## REQUIREMENTS:
 #### IoTrim Requirements for Ground-Truth
-You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger\
+You will need to extract the list of essential/non-essential destinations for each device following the IoTrim procedure: https://github.com/IoTrim/IoTrigger \
 The procedure requires Moniotr and produces two lists, contained in the folder MONIOTR_DIRECTORY/YOUR_DEVICE/traffic/tagged.\
 You will obtain a unique txt file for Essential and Non-essential destinations.
 
